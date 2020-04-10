@@ -8,14 +8,18 @@
   </div>
 </template>
 
-<style>
-#app {
+<style lang="scss">
+  @import '~@/assets/common.scss';
+  @import '~@/assets/vantCommon.scss';
+  #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: aliceblue;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
 }
 
 #nav {

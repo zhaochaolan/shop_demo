@@ -1,0 +1,30 @@
+.van-search{
+  margin-bottom: 10px;
+}
+.van-grid-item__content--center{
+  align-items: normal !important;
+}
+.van-grid-item__content{
+  border-radius: 5%;
+}
+.detail-button{
+  margin-top: 10px;
+}
+.van-tabbar-item--active{
+  color: #ff3025 !important;
+}
+.van-nav-bar::after{
+  border: none !important;
+}
+.button-content{
+  width: 100px;
+  margin-bottom: 10px !important;
+}
+.button-content:first-child{
+  margin-top: 50px !important;
+
+}
+.van-row{
+  padding-left: 10px;
+  padding-right: 10px;
+}
