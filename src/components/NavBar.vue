@@ -30,7 +30,7 @@
         }
     }
 </script>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .van-nav-bar{
     background-color:#a0030c;
     color: #fff;

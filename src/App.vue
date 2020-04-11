@@ -8,9 +8,9 @@
   </div>
 </template>
 
-<style lang="scss">
-  @import '~@/assets/common.scss';
-  @import '~@/assets/vantCommon.scss';
+<style lang="less">
+  @import '~@/assets/common.less';
+  @import '~@/assets/vantCommon.less';
   #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

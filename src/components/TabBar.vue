@@ -63,7 +63,7 @@
         }
     }
 </script>
-<style lang="scss" scoped>
+<style lang="less" scoped>
 .prompt-info{
     padding: 20px;
     p{

@@ -1,17 +1,32 @@
 <template>
-    <van-search
-            v-model="value"
-            shape="round"
-            background="#a0030c"
-            placeholder="请输入搜索关键词"
-    />
+    <div>
+        <van-search
+                @focus="onSearch"
+                v-model="value"
+                shape="round"
+                background="#a0030c"
+                placeholder="请输入搜索关键词"
+        />
+        <search-bar :show="showSearch" @close="showSearch = false"></search-bar>
+    </div>
+
 </template>
 <script>
+    import searchBar from '@/components/searchBar.vue'
     export default {
-        name:'SearchBar',
+        name:'Search',
         data() {
             return {
-                value:''
+                value:'',
+                showSearch: false
+            }
+        },
+        components:{
+            searchBar
+        },
+        methods:{
+            onSearch () {
+                this.showSearch = true
             }
         }
     }
